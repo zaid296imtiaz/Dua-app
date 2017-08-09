@@ -1,0 +1,98 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ECEFF1;
+}
+
+/*------------------welcomePage-------------*/
+#welcomePage{
+    background-image: url('images/backg.jpg');
+    /*background-color: #F5F5F5;*/
+}
+#signUpDiv{
+    width: 30%;
+    border: 1px solid lightgray;
+    float: left;
+    height: 400px;
+    border-top: 10px solid #00ACC1;
+    background-color: #ffffff;
+    margin: 5px;
+    margin-left: 150px;
+}
+#loginDiv{
+    width: 30%;
+    border: 1px solid lightgrey;
+    margin: 5px;
+    margin-right: 150px;
+    height: 400px;
+    float: right;
+    border-top: 10px solid #4CAF50;
+    background-color: #ffffff;
+}
+#welcomeHead{
+    font-size: 32px;
+    background-color: #009688;
+    color: #E0F2F1;
+    margin-top: 0;
+    padding: 10px;
+    text-align: center;
+}
+.welcomeFields{
+    padding: 5px;
+    width: 60%;
+    margin: 5px 19%;
+    /*position: relative;*/
+    outline: 0;
+}
+.welcomeFields:focus{
+    border: 2px solid #9E9E9E;
+    padding: 5px;
+}
+.signHead{
+    font-size: 24px;
+    margin: 20px 19%;
+    margin-top: 40px;
+    color: #9F9F9F;
+}
+.newOldUser{
+    font-size: 16px;
+    font-weight: lighter;
+    color: #757575;
+    margin: 20px 15px;
+}
+
+.welcomeButtons{
+    padding: 5px ;  
+    font-size: 16px;
+    outline: 0;
+    border-radius: 5px;
+    border: 0;
+    margin: 10px 19%;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    width: 63%;
+    min-width: 100px;
+}
+#signUpButt{
+    background-color: #00BCD4;
+    color: #212121;
+}
+#loginButt{
+    background-color: #4CAF50;
+    color: #212121;
+}
+
+
+
+/* -----------------------------------------Home Page------------------------------------------------ */
+.div{
+     display: inline-block; 
+    border: 5px solid #000000;
+}
+#userDataDiv{
+    width: 30%;
+}
+#duaDiv{
+     width: 65%; 
+}
