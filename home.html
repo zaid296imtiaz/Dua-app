@@ -8,17 +8,22 @@
     <title>Document</title>
 </head>
 <body>
+    <h1 id="welcomeHead">Welcome to Dua Application</h1>
+    <div id="mainDiv">
      <div id="userDataDiv" class="div">
         <h1 id="name"></h1>
-        <p id="userDetails"></p>
+        <p id="userDetails">This area will display the details of user.</p>
     </div>
     <div id="duaDiv" class="div">
-        <h1>Dua Portal</h1>    
+        <h1>Dua Portal</h1> 
+         
         <p id="username"></p>
         <p id="post"></p>
-
-        <textarea name="postText" id="newPost" cols="30" rows="10"></textarea>
+        
+        <input type="text" id="toWhome" placeholder="Please Enter to whome or what the Dua is for">
+        <textarea name="postText" id="newPost" placeholder="Enter your Dua" cols="70" rows="5"></textarea><br>
         <button onclick="sub()">Submit</button>
+    </div>
     </div> 
 </body>
 <script src="home.js"></script>

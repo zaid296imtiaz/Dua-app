@@ -2,7 +2,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #ECEFF1;
+    background-color: #FFFDE7;
 }
 
 /*------------------welcomePage-------------*/
@@ -32,8 +32,8 @@ body{
 }
 #welcomeHead{
     font-size: 32px;
-    background-color: #009688;
-    color: #E0F2F1;
+    background-color: #FDD835;
+    color: #FFF8E1;
     margin-top: 0;
     padding: 10px;
     text-align: center;
@@ -86,13 +86,81 @@ body{
 
 
 /* -----------------------------------------Home Page------------------------------------------------ */
+
+/* #mainDiv{
+    display: table
+} */
+
 .div{
-     display: inline-block; 
-    border: 5px solid #000000;
+     /* display: inline-block;  */
+    /* border: 1px solid #000000; */
+    padding: 20px;
 }
 #userDataDiv{
-    width: 30%;
+    /* width: 100%; */
+    margin: 0;
+    background-color: #FFECB3;
+}
+#name{
+    font-size: 32px;
+    font-weight: lighter;
 }
 #duaDiv{
-     width: 65%; 
+       width: 85%;
+       padding: 10px 0 10px 70px;   
+       margin: 0 auto;
+       background-color: #FFF9C4;
+}
+#duaDiv h1{
+    font-size: 48px;
+    font-weight: lighter;
+}
+#newPost{
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 5px;
+    outline: 0;
+    width: 90%;
+}
+#newPost:hover{
+    box-shadow: 0 0 15px lightgray;
+}
+#newPost:focus{
+    box-shadow: 0 0 5px #000000;
+}
+#duaDiv button{
+    font-size: 20px;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 10px;
+    background-color: #FFC107;
+    color: #FFFDE7;
+    outline: 0;
+}
+#duaDiv button:hover{
+    box-shadow: 0 0 5px #212121;
+    background-color: #F9A825;
+    color: #FFFDE7;
+}
+#postDiv{
+    width: 95%;
+    border-radius: 5px;
+    margin: 5px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: white; 
+}
+#toWhome{
+    width: 89%;
+    border-radius: 5px;
+    margin: 5px 0;
+     border: 1px solid #9E9E9E; 
+    padding: 10px;
+    font-size: 18px;
+}
+#toWhome:hover{
+    box-shadow: 0 0 15px lightgray;
+}
+#toWhome:focus{
+    box-shadow: 0 0 5px #000000;
 }
